@@ -18,9 +18,9 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 public class OTOSLocalizer implements Localizer {
     private Pose startPose;
     private final SparkFunOTOS otos;
-    private SparkFunOTOS.Pose2D otosPose;
-    private SparkFunOTOS.Pose2D otosVel;
-    private SparkFunOTOS.Pose2D otosAcc;
+    private final SparkFunOTOS.Pose2D otosPose;
+    private final SparkFunOTOS.Pose2D otosVel;
+    private final SparkFunOTOS.Pose2D otosAcc;
     private double previousHeading;
     private double totalHeading;
 
